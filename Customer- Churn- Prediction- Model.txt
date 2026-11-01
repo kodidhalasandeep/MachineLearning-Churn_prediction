@@ -1,0 +1,21 @@
+#  Customer Churn Prediction Model
+
+A machine learning classification model built with **Python** and **Scikit-Learn** to predict customer churn risk for subscription-based services.
+
+##  Features
+- **Synthetic Data Pipeline:** Generates structured customer behavior datasets.
+- **Supervised Learning:** Trains a **Random Forest Classifier** to spot churn indicators.
+- **Model Persistence:** Uses `joblib` to serialize and save trained models for production inference.
+- **Inference CLI:** Easily evaluate new customer profiles to calculate churn probability.
+
+## Tech Stack
+- **Language:** Python 3.x
+- **Data Manipulation:** Pandas
+- **Machine Learning:** Scikit-Learn
+- **Model Serialization:** Joblib
+
+## Getting Started
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/sandeepkodidhala/customer-churn-predictor.git](https://github.com/sandeepkodidhala/customer-churn-predictor.git)
+   cd customer-churn-predictor
